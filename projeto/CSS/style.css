@@ -260,12 +260,12 @@ Jhey */
 
 }
 
-article {
+article{
 	--active: 0.15;
 	--start: 0;
 	height: 100%;
-	background:#807c7c;
-	padding: 2rem;
+	background:#fffdfd3f;
+	padding: 1rem;
 	aspect-ratio: 330 / 400;
 	border-radius: var(--border-radius);
 	min-width: 280px;
@@ -295,7 +295,7 @@ article:is(:hover, :focus-visible) {
   background-attachment: fixed;
   position: absolute;
 	inset: -5px;
-  border: 10px solid transparent;
+  border: 20px solid transparent;
   border-radius: var(--border-radius);
   mask:
   	linear-gradient(#ff000000, #0000),
@@ -420,3 +420,30 @@ article h2 {
 .dg.ac {
   z-index: 99999 !important;
 } 
+
+.img-rede img{
+  width: 3.5rem;
+  border-radius: 20px;
+}
+
+
+.img-aws img{
+  width: 13rem;
+  border-radius: 20px;
+}
+
+span{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+span:hover{
+  color: chartreuse;
+  transition: 0.5S;
+}
+
+h6{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #fff;
+}

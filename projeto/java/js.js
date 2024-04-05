@@ -10,7 +10,6 @@ const CONFIG = {
   gap: 32,
   vertical: false,
   opacity: 0,
-  
 }
 
 const PROXIMITY = 10

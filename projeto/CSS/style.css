@@ -432,13 +432,13 @@ article h2 {
   border-radius: 20px;
 }
 
-span{
+.curso{
     text-decoration: none;
     color: aliceblue;
     font-size: 1.5rem;
 }
 
-span:hover{
+.curso:hover{
   color: chartreuse;
   transition: 0.5S;
 }
@@ -446,4 +446,26 @@ span:hover{
 h6{
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #fff;
+}
+
+
+.proj{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1.5rem;
+  margin: -6rem;
+  margin-top: -11rem;
+}
+
+.proj:hover{
+color: chartreuse;
+transition: 0.5S;
+}
+
+p{
+  margin-top: -10rem;
+  font-size: 1.5rem;
+}
+.prop img{
+  margin-bottom: -1rem ;
 }
